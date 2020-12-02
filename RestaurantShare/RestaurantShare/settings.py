@@ -27,7 +27,16 @@ SECRET_KEY = 'b^78=!ed21l5a8e8s!zp^wlb+zea3yxdgwry%^^@wr5pf&!g$n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["django-azunp.run.goorm.io"]
+ALLOWED_HOSTS = ["django-lgxlf.run.goorm.io","seehoo.pythonanywhere.com"]
+
+# Email settings
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'seehoo12345@gmail.com'
+EMAIL_HOST_PASSWORD = 'qzepsjefvsgvctcs'
+
 
 
 # Application definition
