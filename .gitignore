@@ -1,0 +1,3 @@
+*.pyc
+__ptcache__
+test.py
